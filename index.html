@@ -7,10 +7,66 @@
                 </title>
                 <link rel="stylesheet" href="stylesheets/styles.css">
                 <link rel="stylesheet" href="stylesheets/github-light.css">
+                <link rel="stylesheet" href="stylesheets/prism.css">
+                <link rel="stylesheet" href="stylesheets/monokai-sublime.css">
             <meta name="viewport" content="width=device-width">
+
                             </head>
     <body>
-        <script src="javascripts/prims.js"></script>
+          <script src="javascripts/prism.js"></script>
+          <script type="text/javascript">
+              AmCharts.makeChart("chartdiv",
+                                 {
+                                 "type": "pie",
+                                 "balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
+                                 "titleField": "country",
+                                 "valueField": "litres",
+                                 "fontSize": 12,
+                                 "theme": "light",
+                                 "allLabels": [],
+                                 "balloon": {},
+                                 "titles": [],
+                                 "dataProvider": [
+                                                  {
+                                                  "country": "C#",
+                                                  "litres": "356.9"
+                                                  },
+                                                  {
+                                                  "country": "R",
+                                                  "litres": 131.1
+                                                  },
+                                                  {
+                                                  "country": "Matlab",
+                                                  "litres": 115.8
+                                                  },
+                                                  {
+                                                  "country": "Gephi",
+                                                  "litres": 109.9
+                                                  },
+                                                  {
+                                                  "country": "Shiny",
+                                                  "litres": 108.3
+                                                  },
+                                                  {
+                                                  "country": "Cassandra",
+                                                  "litres": 65
+                                                  },
+                                                  {
+                                                  "country": "C++",
+                                                  "litres": "20"
+                                                  },
+                                                  {
+                                                  "country": "Java",
+                                                  "litres": "100"
+                                                  },
+                                                  {
+                                                  "country": "SQL",
+                                                  "litres": "100"
+                                                  }
+                                                  ]
+                                 }
+                                 );
+              </script>
         <div class="wrapper">
             <header>
                 <h1>Zahra Aminolroaya
@@ -19,17 +75,18 @@
                 </p>
                 <img src="image/profile.jpg">
                     <div>
+        
                         <a href="https://www.linkedin.com/in/zahra-aminolroaya-5133b472?trk=nav_responsive_tab_profile_pic">
-                            <img src="image/linkedin.png" width="55" height="55" style="border: none;" title="LinkedIn"  target="_blank">
+                            <img src="image/linkedin.png" style="border: none;" title="LinkedIn"  target="_blank">
                                 </a>
                         <a href="http://stackoverflow.com/users/3283528/dooshizeplusplus?tab=profile">
-                            <img src="image/stack.png" width="55" height="55" style="border: none;" title="Stack Overflow"  target="_blank">
+                            <img src="image/stack.png"  style="border: none;" title="Stack Overflow"  target="_blank">
                                 </a>
                         <a href="https://github.com/Aminolroaya">
-                            <img src="image/git.png" width="55" height="55" style="border: none;" title="Github"  target="_blank">
+                            <img src="image/git.png"  style="border: none;" title="Github"  target="_blank">
                                 </a>
                         <a href="mailto:z.aminolroaya@gmail.com" target="_top">
-                            <img src="image/mail.png" width="55" height="55" style="border: none;" title="GMail">
+                            <img src="image/mail.png"  style="border: none;" title="GMail">
                                 </a>
                     </div>
                     </header>
@@ -40,20 +97,13 @@
                         </span>
                     </a>About me
                 </h1>
-                <pre>
-                    <code>
-                    import random
-                    print('Thanks for your viewing my resume page.')
-                    age=25
-                    death=random.randint(age, 120)
-                    becamePerfect=False
-                    for year in death-age+1:
-                    print("live a life!")
-                    print("Learn!")
-                    becamePerfect=True
-                    print('Congrats for having a good life')
-                    </code> 
-                </pre>
+                My name is Zahra Aminolroaya and I recently graduated from  <a href="http://en.sbu.ac.ir/sitepages/home.aspx" target="_top" >Shahid Beheshti University (SBU)</a>, Tehran, Iran, with a masters degree in Computer Science. I am interested in the field of data mining, text mining and computer vision. Also, as an applicable sociological research method, social networks analysis (SNA) has always appealed to me.
+                </br>
+                </br>
+                
+              <small>   <span><i style="color:#258579;">The more I learn, the more I learn how little I know. -- Socrates </i></span> </small>
+                </br>
+                </br>
                 <h1>
                     <a id="publication" class="anchor" href="#publication" aria-hidden="true">
                         <span aria-hidden="true" class="octicon octicon-link">
@@ -61,7 +111,7 @@
                     </a>Publication
                 </h1>
                 <ul>
-                    <li>1st
+                    <li><a href="http://fa.seminars.sid.ir/ViewPaper.aspx?ID=22398" target="_top" >Analysis of comments' sensations and network indices in a study on reflection of claims for ethnic rights in Instagram </a>
                     </li>
                     <li>2nd
                     </li>
@@ -72,12 +122,37 @@
                         </span>
                     </a>Experience
                 </h1>
+                <ul>
+                    <li>
+                       <b>  Data Analyst at DaycheGroup</b></br>
+                       <i> September 2016 - Present (3 months)</i></br>
+                       <small> Text mining problems like pharmacies' ID unification, Data mining techniques for customer relationship management like defining loyal costomers and customers' churn.</small>
+                    </li>
+                    </br>
+                    <li>
+                    <b> R & D Engineer at Shahid Behehsti University Cyber Space Research Center</b></br>
+                           <i> August 2015 - September 2016 (1 year 2 months)</i></br>
+                           <small> Study on text mining problems especially the plagiarism detection, different relational and non-relational languages
+                            like SQL and CQL for solving different problems, working with Solr, an open source enterprise search platform.</small>
+                    </li>
+                    </br>
+                    <li><b>Teacher Assistant at Shahid Beheshti University</b></br>
+                        <i>December 2011 - January 2015 (Three semesters) </i></br>
+                            <small>Being a teacher assistant for three semesters, solving students' problems in the "Introduction to Computer Science
+                            and Programming" and "Artificial Intelligence" fields.</small>
+                    </li>
+                    
+                </ul>
+                
                 <h1>
                     <a id="skills" class="anchor" href="#skills" aria-hidden="true">
                         <span aria-hidden="true" class="octicon octicon-link">
                         </span>
                     </a>skills
                 </h1>
+              <small> <i> I do not consider myself as an expert programmer. I just know I try my best to find logical solutions to kill programming bugs! :) </i> </small>
+              <div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+               
                 </div>
         <script src="javascripts/scale.fix.js">
             </script>
