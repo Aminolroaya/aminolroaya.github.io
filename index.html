@@ -10,6 +10,13 @@
                 <link rel="stylesheet" href="stylesheets/prism.css">
                 <link rel="stylesheet" href="stylesheets/monokai-sublime.css">
             <meta name="viewport" content="width=device-width">
+                <!-- amCharts custom font -->
+                <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+                    
+                    <!-- amCharts javascript sources -->
+                    <script type="text/javascript" src="javascripts/amcharts.js"></script>
+                    <script type="text/javascript" src="javascripts/pie.js"></script>
+                    <script type="text/javascript" src="javascripts/chalks.js"></script>
 
                             </head>
     <body>
@@ -19,8 +26,8 @@
                                  {
                                  "type": "pie",
                                  "balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
-                                 "titleField": "country",
-                                 "valueField": "litres",
+                                 "titleField": "Language",
+                                 "valueField": "Percentage",
                                  "fontSize": 12,
                                  "theme": "light",
                                  "allLabels": [],
@@ -28,40 +35,42 @@
                                  "titles": [],
                                  "dataProvider": [
                                                   {
-                                                  "country": "C#",
-                                                  "litres": "356.9"
+                                                  "Language": "C#",
+                                                  "Percentage": 45
                                                   },
                                                   {
-                                                  "country": "R",
-                                                  "litres": 131.1
+                                            
+                                                  "Language": "R",
+                                                  "Percentage": 45                                                  },
+                                                  {
+                                                  
+                                                  "Language": "Matlab",
+                                                  "Percentage": 30
                                                   },
                                                   {
-                                                  "country": "Matlab",
-                                                  "litres": 115.8
+                                                  
+                                                  "Language": "Gephi",
+                                                  "Percentage": 30
                                                   },
                                                   {
-                                                  "country": "Gephi",
-                                                  "litres": 109.9
+                                                  "Language": "Shiny",
+                                                  "Percentage": 30
                                                   },
                                                   {
-                                                  "country": "Shiny",
-                                                  "litres": 108.3
+                                                  "Language": "Cassandra",
+                                                  "Percentage": 20
                                                   },
                                                   {
-                                                  "country": "Cassandra",
-                                                  "litres": 65
+                                                  "Language": "C++",
+                                                  "Percentage": 20
                                                   },
                                                   {
-                                                  "country": "C++",
-                                                  "litres": "20"
+                                                  "Language": "Java",
+                                                  "Percentage": 10
                                                   },
                                                   {
-                                                  "country": "Java",
-                                                  "litres": "100"
-                                                  },
-                                                  {
-                                                  "country": "SQL",
-                                                  "litres": "100"
+                                                  "Language": "SQL",
+                                                  "Percentage": 30
                                                   }
                                                   ]
                                  }
